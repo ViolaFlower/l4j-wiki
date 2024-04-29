@@ -33,7 +33,7 @@ echo $html;
 <?php
 $dir    = './';
 
-$flies = array_values(array_diff(scandir($dir), array('..', '.', 'index.php', 'style.css')));
+$flies = array_values(array_diff(scandir($dir), array('..', '.', 'index.php', 'style.css','README.md')));
 
 for ($i = 0; $i < count($flies); $i++) {
     sort($flies, SORT_NATURAL | SORT_FLAG_CASE);
