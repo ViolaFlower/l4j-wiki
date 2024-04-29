@@ -15,6 +15,9 @@ $test = 0;
 <!-- change this to l4j server icon main color -->
 <meta content="#841710" data-react-helmet="true" name="theme-color" />
 
+<link rel="preload" as="image" href="assets/button_highlighted.png">
+<link rel="preload" as="image" href="assets/button.png">
+
 </head>
 <div class="blur">
 <?php if (isset($_GET['credits'])){
