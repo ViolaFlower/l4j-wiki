@@ -4,6 +4,9 @@ $file = $_GET['page'];
 if (empty($file)) {
     $file = "Home";
 }
+if(!file_exists("$file.md")) {
+    header("HTTP/1.0 404 Not Found");
+}
 ?>
 <title><?php echo $file;?></title>
 <link rel="stylesheet" href="style.css">
