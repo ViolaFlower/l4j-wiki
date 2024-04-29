@@ -1,0 +1,69 @@
+body {
+    background-color:#86241f;
+    color:white;
+}
+
+a {
+text-decoration:none;
+color:yellow;
+}
+
+.mainbody {
+    width:85%;
+    background-color:#4d1512;
+    border:solid 1px gray;
+    position:relative;
+    float:left;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.mainbody code{
+    display:inline-block;
+    border:solid 1px gray;
+    width:50%;
+    background-color:white;
+    color:black;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.shitfuck {
+    border:solid 1px white;
+    display:inline-block;
+    position:relative;
+    float:left;
+    margin-left:10px;
+}
+
+.shitfuck a{
+color:white;
+text-decoration:none;
+}
+
+@media screen and (max-width: 1280px){
+.mainbody {
+    width:100%;
+    background-color:transparent;
+    border:none 0px gray;
+    float:center;
+}
+
+.mainbody code{
+    border:solid 1px gray;
+    width:100%;
+    background-color:black;
+    color:white;
+    font-size:10;
+}
+
+.shitfuck {
+    border:none 0px white;
+    border-top:solid 1px white;
+
+    position:none;
+    float:none;
+    margin-left:10px;
+}
+
+}

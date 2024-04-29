@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('assets/Minecraft-LCE.ttf')
+}
+@font-face {
+  font-family: 'minecraft-bold';
+  src: url('assets/Mojang-Bold.ttf')
+}
+
+body {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  font-family: 'minecraft';
+  background-image: url('assets/panorama.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background-repeat: repeat-x;
+  animation: panorama 120s linear infinite;
+}
+
+@keyframes panorama {
+  0% {
+  background-position: 0;
+  }
+
+  100% {
+  background-position: calc(100vh / 144 * -820);
+  }
+}
+
+b {
+  font-family:'minecraft-bold';
+}
+
+a {
+  text-decoration:none;
+  font-family: minecraft-bold;
+  color: #ffff55;
+  text-shadow: 1px 1px 00 #000;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  padding: 5vh;
+  border-image: url('assets/border.png');
+  border-image-slice: 100 100 fill;
+  border-image-width: 64px;
+  margin-top: 10px;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.center-screen {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 100vh;
+}
+
+
+
+.blur {
+backdrop-filter:blur(3px);
+min-height:100vh;
+}
+
+.blogdiv {
+padding: 2vh;
+border-image: url('assets/border2.png');
+border-image-slice: 100 100 fill;
+border-image-width: 64px;
+display:block;
+text-align:left;
+overflow:hidden;
+height:100px;
+}
+
+.blogdiv a {
+color:black;
+font-family: minecraft;
+text-shadow: 0 0 00 #000;
+}
+
+.blogicon {
+height:100%;
+float: left;
+padding-right:5px;
+}
+
+.blogpost {
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.back {
+  font-size:25;
+  text-align:left;
+  padding-top:10px;
+  margin-top:-15px;
+  margin-bottom:-15px;
+
+}
+
+.back a {
+  color:black;
+  text-shadow: 0 0 00 #000;
+}
+
+.mc-button {
+  font-family: 'minecraft';
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  width: 400;
+  height: 40;
+  background-size: cover;
+  image-rendering: pixelated;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 00 #000;
+  background-image: url('assets/button.png');
+  max-width: 100%;
+  max-height:auto;
+margin-bottom:10px;
+}
+
+.mc-button:hover {
+  background-image: url('assets/button_highlighted.png');
+  color:yellow;
+}
+
+img {
+  max-width:99%;
+}
+
+hr {
+  margin: 30px -20px 20px;
+  border: 0;
+  border-top: 2px solid #555555;
+
+}
+
+.credits {
+    color:white;
+  text-shadow: 1px 1px 00 #000;
+
+}
+
+.playerhead {
+width:20px;
+}
+
+@media screen and (max-width: 1280px){
+body {
+background-image: url('null');
+background-color: #c6c6c6;
+animation: none;
+}
+.box {
+  width: auto;
+  border-image: url('null');
+  border-image-slice: 0 0 fill;
+  border-image-width: 0;
+  margin-top: 0px;
+}
+.center-screen {
+  display: block;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width:100%;
+
+}
+.blogpost {
+font-size: 15px;
+
+}
+.blogtitle {
+font-size: 10px;
+}
+
+#desc {
+display:none
+}
+
+.back {
+  font-size:35;
+  margin-top:0px;
+  padding-top:0px;
+
+}
+
+.blogdiv {
+border-image-width: 32px;
+width:100%;
+margin-left:-5%;
+}
+}
