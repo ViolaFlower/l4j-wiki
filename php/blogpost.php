@@ -42,7 +42,7 @@ spl_autoload_register(function($class){
 });
 
 use Michelf\Markdown;
-$text = file_get_contents("$dir/$post/content.txt");
+$text = file_get_contents("$dir/$post/content.md");
 $html = Markdown::defaultTransform($text);
 
 echo $html;
