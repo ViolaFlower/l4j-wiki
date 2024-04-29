@@ -9,6 +9,11 @@ so dont treat it like it is
 pretty pleaseeee
 pleasssseeee
 
+# todo
+[ ] visit tracker (write date into file when main page is loaded
+[ ] example for advertisements (unobtrusive)
+
+
 # Software Used
 ## [PHP Markdown Lib](https://michelf.ca/projects/php-markdown/)
 this software is used to add markdown to the blogposts to make it easer to edit for the non html inclined
