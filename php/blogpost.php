@@ -14,6 +14,8 @@ $title = $decodedData['Title'];
 $desc = $decodedData['Description'];
 
 $date = date("m/d/Y", strtotime($jsondate));
+$writtendate = date("l F jS Y", strtotime($jsondate));
+
 
 if(!file_exists("$dir/$post")){
 header("HTTP/1.0 404 Not Found");
@@ -29,7 +31,7 @@ header("HTTP/1.0 404 Not Found");
 <span class="blogtitle">
 <h1><?php echo $title; ?></h1>
 <h2><?php echo $desc ?></h2>
-<h3><?php echo "Written by $author <i style='font-size:12;color:#3d3d3d'>at $date</i>";
+<h3><?php echo "Written by $author <i style='font-size:12;color:#3d3d3d'>on $writtendate</i>";
 // make author have profile picture
 ?></h3>
 </span>
