@@ -2,17 +2,15 @@
 $test = 0;
 ?>
 <head>
-<title>L4J Wiki</title>
+<title>Re-Console</title>
 <link rel="stylesheet" href="style.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- get the l4j icon for the tabicon -->
 <link rel="icon" href="favicon.ico">
 
-<meta content="Legacy 4J Wiki Page" property="og:title" />
-<meta content="The Official Wiki For Legacy 4J" property="og:description" />
+<meta content="Re-Console Wiki" property="og:title" />
+<meta content="The Official Wiki For Re-Console" property="og:description" />
 <meta content="/misc/media/embeds/main.png" property="og:image" />
-<!-- change this to l4j server icon main color -->
 <meta content="#841710" data-react-helmet="true" name="theme-color" />
 
 <link rel="preload" as="image" href="assets/button_highlighted.png">

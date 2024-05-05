@@ -2,7 +2,7 @@
 <div class="box">
 <p class="back"><a href=".">&lt;</a></p>
 <hr>
-<h1>Legacy 4J Credits</h1>
+<h1>Re-Console</h1>
 <h3 class="credits">
 Legacy 4J Developer <br><b><a href="https://modrinth.com/user/Wilyicaro">Wilyicaro</a> <img class="playerhead" src="/assets/playerheads/Wilyicaro.png"></b><br>
 Modpack Developer <br><b><a href="https://modrinth.com/user/omoso">omoso</a> <img class="playerhead" src="/assets/playerheads/omoso_.png"></b><br>
