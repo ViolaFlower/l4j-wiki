@@ -10,7 +10,6 @@ pretty pleaseeee
 pleasssseeee
 
 # todo
-- [ ] visit tracker (write date into file when main page is loaded
 - [X] example for advertisements (unobtrusive)
 
 
