@@ -62,10 +62,10 @@ for ($i = 0; $i < count($flies); $i++) {
             // Check if the line starts with "##" or "#"
             if (substr(trim($line), 0, 2) === "##") {
                 // Display the line in bold
-                echo "<b>".str_replace('#','',$line)."</b><br>";
+                echo "<b style='color:gray'>".str_replace('#','',$line)."</b><br>";
             } elseif (substr(trim($line), 0, 1) === "#") {
                 // Display the line italicized
-                echo "<i>".str_replace('#','',$line)."</i><br>";
+                echo "<i style='color:gray'>".str_replace('#','',$line)."</i><br>";
             }
         }
         echo "</details>";
