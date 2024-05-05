@@ -8,6 +8,6 @@
 <a class="mc-button" href="?blog">Blog</a><br>
 <a class="mc-button" href="?wiki">Wiki</a><br>
 <a class="mc-button" href="https://github.com/Wilyicaro/Legacy-Minecraft">Source</a></p>
-
+<img src="ad.php">
 </div>
 </div>

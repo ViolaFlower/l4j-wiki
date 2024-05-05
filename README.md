@@ -11,7 +11,7 @@ pleasssseeee
 
 # todo
 - [ ] visit tracker (write date into file when main page is loaded
-- [ ] example for advertisements (unobtrusive)
+- [X] example for advertisements (unobtrusive)
 
 
 # Software Used
