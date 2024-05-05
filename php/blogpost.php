@@ -29,8 +29,8 @@ header("HTTP/1.0 404 Not Found");
 <p class="back"><a href="?blog">&lt;</a></p>
 <hr>
 <span class="blogtitle">
-<h1><?php echo $title; ?></h1>
-<h2><?php echo $desc ?></h2>
+<h1 style="color:#ffff55"><?php echo $title; ?></h1>
+<h2 style="color:#55FFFF"><?php echo $desc ?></h2>
 <h3><?php echo "Written by $author <i style='font-size:12;color:#3d3d3d'>on $writtendate</i>";
 // make author have profile picture
 ?></h3>
