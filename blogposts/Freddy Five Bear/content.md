@@ -1,2 +1,2 @@
 AAAAAAAAAAAAAAAAAAAAAAA
-![feddy](FFInfoboxImage.webp)
+![feddy](./FFInfoboxImage.webp)
