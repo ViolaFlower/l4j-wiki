@@ -15,6 +15,19 @@ $test = 0;
 
 <link rel="preload" as="image" href="assets/button_highlighted.png">
 <link rel="preload" as="image" href="assets/button.png">
+<link rel="preload" as="audio" href="assets/click.mp3">
+<link rel="preload" as="audio" href="assets/hover.mp3">
+
+
+<script src="sound.js"></script>
+
+<audio id="hover">
+<source src="assets/hover.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="click">
+<source src="assets/click.mp3" type="audio/mpeg">
+</audio>
 
 </head>
 <div class="blur">
