@@ -5,7 +5,7 @@ It is also under **HEAVY** development as of right now. Please do not treat this
 
 # Todo
 - [X] Example for advertisements (unobtrusive)
-- [ ] button sounds
+- [X] button sounds
 - [ ] main page rework
 
 # Software Used
