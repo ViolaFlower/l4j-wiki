@@ -1,6 +1,4 @@
-# Welcome to the official Re-Console Wiki!
-
-this is the official Re-Console wiki where you can find info about the modpack and maybe even...
-*other things*
-GASP!
-youll just have to wait and find out!
+today the wiki has been officially released!
+expect many changes to come nothing here is permanant!
+thank you for viewing this!
+yaaaaaay!
