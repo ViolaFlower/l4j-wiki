@@ -61,3 +61,7 @@ include ("php/main.php");
 console.log("i see you!")
 console.log("if you want to help email me at mail@novassite.net")
 </script>
+
+<!-- 
+https://github.com/Legacy-Union/l4j-wiki
+-->
