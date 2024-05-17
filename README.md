@@ -8,6 +8,7 @@ It is also under **HEAVY** development as of right now. Please do not treat this
 - [X] button sounds
 - [ ] main page rework
 - [ ] blog specific embeds
+- [ ] improve mobile site
 
 # Software Used
 ## [PHP Markdown Lib](https://michelf.ca/projects/php-markdown/)
