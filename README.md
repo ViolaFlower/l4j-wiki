@@ -10,6 +10,7 @@ It is also under **HEAVY** development as of right now. Please do not treat this
 
 # Software Used
 ## [PHP Markdown Lib](https://michelf.ca/projects/php-markdown/)
-This is used for the blogposts and wiki
-The blog is so that the less html inclined can use it
-And the wiki is for me to be lazy and just import .md files
+
+This is used for the blogposts and wiki.
+
+The blog is so that the less html inclined can use it, the wiki is for me to be lazy and easily import .md files.
