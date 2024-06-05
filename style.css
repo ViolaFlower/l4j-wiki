@@ -21,6 +21,10 @@ body {
   animation: panorama 120s linear infinite;
 }
 
+li {
+text-align:left;
+}
+
 @keyframes panorama {
   0% {
   background-position: 0;
